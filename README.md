@@ -1,2 +1,2 @@
 # Hello World!!!
-## It's branch two.
+## It's branch two. Learn all comands.
