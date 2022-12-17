@@ -1,10 +1,10 @@
-x = input()
+nubrer_or_word = input()
 
-if x.isdigit():
+if nubrer_or_word.isdigit():
     print("It's numer.")
-    if int(x) % 2 == 0:
+    if int(nubrer_or_word) % 2 == 0:
         print("This even numer")
     else:
         print("This not even numer")
 else:
-    print("This word have" + ' ' + str(len(x)) + ' ' + 'letters.')
+    print(f"This word have {len(nubrer_or_word)} etters.")
