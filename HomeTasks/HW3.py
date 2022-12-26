@@ -7,8 +7,13 @@ for letter in text:
             print(f"{letter} even numer")
         else:
             print(f"{letter} not even numer")
+    elif letter.isalpha():
+        if 'A' <= letter <= 'Z':
+            print (f"{letter} big letter")
+        else :
+            print(f"{letter} small letter")
     else:
-        print(f"{letter}")
+        print (f"{letter} it's symbol")
 
 
 # TASK 2
